@@ -1,0 +1,51 @@
+SHOP POS - CLIENT SETUP INSTRUCTIONS
+=====================================
+
+STEP 1: UPLOAD FILES
+--------------------
+1. Upload all files to your web server (public_html or www folder)
+2. Ensure PHP 7.4+ and MySQL are installed
+
+STEP 2: DATABASE SETUP
+----------------------
+1. Create a new MySQL database
+2. Import the database.sql file
+3. Update config/database.php with your database credentials:
+   - $host = "localhost"
+   - $db_name = "your_database_name"
+   - $username = "your_db_username"
+   - $password = "your_db_password"
+
+STEP 3: FOLDER PERMISSIONS
+--------------------------
+Set these folder permissions:
+- uploads/products/ - 755 (writable)
+- config/ - 755 (writable)
+
+STEP 4: ACCESS THE SOFTWARE
+---------------------------
+1. Open your browser
+2. Go to: http://yourdomain.com
+3. Login with:
+   Username: admin
+   Password: password
+   
+4. IMPORTANT: Change the admin password immediately!
+
+STEP 5: LICENSE INFORMATION
+---------------------------
+Your license is valid for: [DURATION]
+License expires on: [DATE]
+Contact for renewal: [YOUR EMAIL/PHONE]
+
+SUPPORT
+-------
+For technical support, contact:
+Email: your-email@example.com
+Phone: +1234567890
+
+IMPORTANT NOTES:
+- Do not delete config/license.key file
+- Do not delete config/hardware.key file
+- Keep regular database backups
+- Software is licensed for single domain only
